@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ucapan Perpisahan untuk Supervisor</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            margin: 0;
+            padding: 10;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            background-image: url('https://www.transparenttextures.com/patterns/subtle-white-feathers.png');
+            background-attachment: fixed;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            border: 2px solid #d4af37;
+            border-radius: 25px;
+            padding: 80px 50px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1), 0 5px 15px rgba(0, 0, 0, 0.05);
+            max-width: 700px;
+            position: relative;
+            animation: slideIn 1.5s ease-out;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: -50px;
+            left: -50px;
+            width: 100px;
+            height: 100px;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.3) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .card::after {
+            content: '';
+            position: absolute;
+            bottom: -50px;
+            right: -50px;
+            width: 100px;
+            height: 100px;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.3) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3em;
+            margin-bottom: 30px;
+            color: #2c3e50;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        h1::after {
+            content: '';
+            display: block;
+            width: 100px;
+            height: 3px;
+            background: linear-gradient(to right, #d4af37, #f39c12);
+            margin: 10px auto 0;
+            border-radius: 2px;
+        }
+
+        p {
+            font-size: 1.3em;
+            line-height: 1.8;
+            margin-bottom: 25px;
+            color: #555;
+        }
+
+        .signature {
+            font-style: italic;
+            margin-top: 40px;
+            font-size: 1.2em;
+            color: #7f8c8d;
+            font-weight: 300;
+        }
+
+        .decoration {
+            font-size: 2.5em;
+            margin: 20px 0;
+            opacity: 0.7;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+
+<body>
+   <div class="card">
+    <h1>-</h1>
+
+    <p>Divadan,</p>
+
+    <p>
+        thanks yaa dip, udah bantu gw buat masuk magang di lcd.
+       
+    </p>
+
+    <p>
+        Makasih juga udah banyak bantu selama gw magang.
+    </p>
+
+    <p>
+        Semoga ke depannya sehat terus dan makin sukses.
+       arigatou gozaimashita!
+    </p>
+
+    <p class="signature">
+        Hana
+    </p>
+</div>
+
+
+
+</body>
+
+</html>
